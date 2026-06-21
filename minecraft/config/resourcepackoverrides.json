@@ -1,13 +1,13 @@
 {
   "schema_version": "2",
   "default_packs": [
-    "file/Project Zero.zip"
+    "file/Project Zero"
   ],
   "default_overrides": {
     "force_compatible": true
   },
   "pack_overrides": {
-    "file/Project Zero.zip": {
+    "file/Project Zero": {
       "required": true,
       "hidden": false,
       "fixed_position": true,

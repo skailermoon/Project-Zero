@@ -2,7 +2,7 @@
 
 I:default_gui_scale = '-1';
 B:force_fullscreen = 'false';
-B:play_vanilla_menu_music = 'false';
+B:play_vanilla_menu_music = 'true';
 
 
 ##[customization]
@@ -16,7 +16,7 @@ B:advanced_customization_mode = 'true';
 
 B:game_intro_fade_out = 'true';
 S:game_intro_sound_channel = 'master';
-S:preload_resources = '';
+S:preload_resources = '[source:local]config/fancymenu/assets/menu/beginning_2.ogg%!source_end!%[source:local]config/fancymenu/assets/menu/floating_trees.ogg%!source_end!%[source:local]config/fancymenu/assets/menu/moog_city.ogg%!source_end!%[source:local]config/fancymenu/assets/menu/mutation.ogg%!source_end!%';
 B:allow_game_intro_skip = 'true';
 S:game_intro_animation_name = '';
 F:game_intro_volume = '1.0';
