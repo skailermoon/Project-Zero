@@ -1,0 +1,29 @@
+filename = 'aztec-ruins-1.0.jar'
+name = 'Aztec Temple & Ruins - Ruins Structure ✅'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [
+    '1.21',
+    '1.21.1',
+    '1.21.10',
+    '1.21.11',
+    '1.21.2',
+    '1.21.3',
+    '1.21.4',
+    '1.21.5',
+    '1.21.6',
+    '1.21.7',
+    '1.21.8',
+    '1.21.9'
+]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '629ce9ab27668415a4fcfd8af4ba3be51461720b7267b40f99f9ad4b32e1bf0c636abd7fbb4d6895247d55f243746dac5f840edbcdd881fbfab520f877e788ba'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Y4XyzgIp/versions/lyaZWn68/aztec-ruins-1.0.jar'
+
+[update.modrinth]
+mod-id = 'Y4XyzgIp'
+version = 'lyaZWn68'

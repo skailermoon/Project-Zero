@@ -1,0 +1,16 @@
+filename = 'aquariuslibs-1.0.1-neoforge-1.21.11-21.11.17-b.jar'
+name = 'Aquarius Libs'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.11' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '82b1735a533add050b674fbe8426108d0d8b9bd9b7a6c4e6c31cb8849e07785fd6e15d76258c9bcdb07950b34760436df0cc9ac4d3b2835796a9e5bf8a7ed9f6'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/KkHnyaL6/versions/uAbYuKfz/aquariuslibs-1.0.1-neoforge-1.21.11-21.11.17-b.jar'
+
+[update.modrinth]
+mod-id = 'KkHnyaL6'
+version = 'uAbYuKfz'

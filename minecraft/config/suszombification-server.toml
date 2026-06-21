@@ -1,0 +1,6 @@
+#Set this to false to disable the feature of zombified animals being able to zombify its prey on Normal and Hard difficulty.
+animal_zombification = true
+#Set this to false to disable the feature of cats being able to gift players candy.
+candy_morning_gifts = true
+#Set this to false to disable the feature of a player with the Zombies' Curse effect converting every animal in range to its zombified variant.
+zombies_curse_zombification = true

@@ -1,0 +1,18 @@
+{
+  "mode": "BLACKLIST",
+  "mobs": [
+    "minecraft:blaze",
+    "minecraft:zoglin",
+    "minecraft:ghast",
+    "minecraft:hoglin",
+    "minecraft:magma_cube",
+    "minecraft:piglin_brute",
+    "minecraft:zombified_piglin",
+    "minecraft:wither_skeleton",
+    "minecraft:piglin"
+  ],
+  "range": 8,
+  "flee_fast_speed": 1.5,
+  "flee_slow_speed": 1.0,
+  "drop_item_chance": 25
+}

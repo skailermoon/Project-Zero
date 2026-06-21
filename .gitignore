@@ -1,20 +1,31 @@
 # Logs
-logs/
+minecraft/logs/
 
 # Singleplayer worlds
-saves/
+minecraft/saves/
 
 # Resource pack downloads from servers
-server-resource-packs/
+minecraft/server-resource-packs/
 
 # Xaero map data and backups
-xaero/
-XaeroWaypoints_BACKUP*/
+minecraft/xaero/
+minecraft/XaeroWaypoints_BACKUP*/
+
+# FancyMenu generated data
+minecraft/fancymenu_data/
 
 # Temporary files
 *.log
 *.tmp
+minecraft/.cache/
+minecraft/screenshots/
+minecraft/crash-reports/
+minecraft/usercache.json
+minecraft/launcher_profiles.json
 
 # OS files
 Thumbs.db
 Desktop.ini
+
+# Server list
+minecraft/servers.dat

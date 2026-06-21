@@ -1,0 +1,16 @@
+filename = 'ResourcePackOverrides-v21.11.1-mc1.21.11-NeoForge.jar'
+name = 'Resource Pack Overrides'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.11' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '94eec198b38fd9b31e7db6577fbf98d2891bbb020754dfb243cfedbce11cf106ce6205b9cd2b8a8bc09acb58fdf9f297e9121451e1241bb24f4f9f8d68bd6394'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/YsFycamt/versions/M7UQKC11/ResourcePackOverrides-v21.11.1-mc1.21.11-NeoForge.jar'
+
+[update.modrinth]
+mod-id = 'YsFycamt'
+version = 'M7UQKC11'

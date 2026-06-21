@@ -1,0 +1,16 @@
+filename = 'drippy_early_loading_module_neoforge_3.1.2_MC_1.21.11.jar'
+name = 'Drippy Early Loading Module'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.11' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '1dd9b8b240554bf42a7843436c9ddfa78154423c177136a1985bc1088f6aeb9bcb273137674e2b845e854827c3ccf9769ca585803c0a264464a2f8d811d41fd5'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/k3TlcLvL/versions/uHeNfZ3W/drippy_early_loading_module_neoforge_3.1.2_MC_1.21.11.jar'
+
+[update.modrinth]
+mod-id = 'k3TlcLvL'
+version = 'uHeNfZ3W'

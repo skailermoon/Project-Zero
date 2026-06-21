@@ -1,0 +1,16 @@
+filename = 'xaerominimap-neoforge-1.21.11-26.1.0.jar'
+name = "Xaero's Minimap"
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.11' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'c71fe1bf900b250dc687d73c01468004786c6e2d'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8231247
+project-id = 263420

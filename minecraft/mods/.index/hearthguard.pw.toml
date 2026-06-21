@@ -1,0 +1,16 @@
+filename = 'hearthguard-neoforge-1.21.11-1.1.1.jar'
+name = 'Mobs Fear CampFire – HearthGuard'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.11' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '349c01bd6a46fa1b926779f723beca10006eb88e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8046056
+project-id = 1483098

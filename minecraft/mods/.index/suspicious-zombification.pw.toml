@@ -1,0 +1,16 @@
+filename = 'suszombification-1.21.11-1.3.2.jar'
+name = 'Suspicious Zombification'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.11' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '0bfdd658db7a60b1eb9d4d8dc0522afd0ae5e1e69c6f7bedef8a5b4ed8fd61b34150ecbd25b717583409035bab4b5f8c038ba0bd839fb979c730b218150b3e34'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/HE8pl71X/versions/VgHgN9PI/suszombification-1.21.11-1.3.2.jar'
+
+[update.modrinth]
+mod-id = 'HE8pl71X'
+version = 'VgHgN9PI'

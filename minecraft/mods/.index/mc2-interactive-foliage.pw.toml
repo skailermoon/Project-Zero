@@ -1,0 +1,16 @@
+filename = 'mc2_interactivefoliage-1.1.1-neoforge+1.21.11.jar'
+name = 'Interactive Foliage'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.10', '1.21.11' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'aa1f425926a22799c398c7a2a75e4ea3390207a46320594eac149827b8afe74381b7ab895958d9e9f0072a74d3ca3af716a17fc75df788cef70c0e686bc5d2cd'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ba5MV2CF/versions/qOX0EoCh/mc2_interactivefoliage-1.1.1-neoforge%2B1.21.11.jar'
+
+[update.modrinth]
+mod-id = 'ba5MV2CF'
+version = 'qOX0EoCh'

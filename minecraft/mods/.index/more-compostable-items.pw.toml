@@ -1,0 +1,16 @@
+filename = 'more-compostable-items-1.4.1.jar'
+name = 'More Compostable Items'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.10', '1.21.11', '1.21.9', '26.1', '26.1.1', '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'ba4245ddc6984a6edc48c40d9f2b0ad6543236b461a4ed864981c1dd92d6bf9d92f8792901a9b5794ff05d95d519ea7212b37aa7e33859c7207562dd1e7aae23'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/fli89JFe/versions/KkQmxszM/more-compostable-items-1.4.1.jar'
+
+[update.modrinth]
+mod-id = 'fli89JFe'
+version = 'KkQmxszM'

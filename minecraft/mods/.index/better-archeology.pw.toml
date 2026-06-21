@@ -1,0 +1,16 @@
+filename = 'betterarcheology-neoforge-1.21.11-1.3.4.jar'
+name = 'Better Archeology'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.11' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '77e67869e3faef3a362eec4a589931c6d81424012c38aae01b76b2db7200d601210ccadcd1baadf631975043c862dea7384f7bd9a11268d63799f11c1dd3b4f5'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/zCh7omyG/versions/qgFxJKTn/betterarcheology-neoforge-1.21.11-1.3.4.jar'
+
+[update.modrinth]
+mod-id = 'zCh7omyG'
+version = 'qgFxJKTn'

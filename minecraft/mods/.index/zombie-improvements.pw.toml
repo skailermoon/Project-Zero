@@ -1,0 +1,16 @@
+filename = 'zombieimprovements-1.2.0+1.21.11-neoforge.jar'
+name = 'Zombie Improvements'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.11' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'd995086cc17a6380962cd2a7efcad07124f1b3a6'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7672988
+project-id = 1337487

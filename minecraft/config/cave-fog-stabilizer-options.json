@@ -1,0 +1,6 @@
+{
+  "shouldStabilizeFog": true,
+  "standardCaveFogBrightness": 0,
+  "customCaveFogBrightness": 20,
+  "fogTransitionTime": 5
+}

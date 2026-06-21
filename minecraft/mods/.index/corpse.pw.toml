@@ -1,0 +1,16 @@
+filename = 'corpse-neoforge-1.21.11-1.1.16.jar'
+name = 'Corpse'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.11' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '76149723566213db2c37f0ac9009fcd0433837cc117d9e197538d6a3a5b377f0f4cda4426e1bf3b065731d3ec3dc7c104b2bc3fbaea297f801fc7c6442160744'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/WrpuIfhw/versions/VgCn6ZZ2/corpse-neoforge-1.21.11-1.1.16.jar'
+
+[update.modrinth]
+mod-id = 'WrpuIfhw'
+version = 'VgCn6ZZ2'

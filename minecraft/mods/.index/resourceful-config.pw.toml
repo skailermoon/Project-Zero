@@ -1,0 +1,16 @@
+filename = 'ResourcefulConfig-neoforge-1.21.11-3.11.3.jar'
+name = 'Resourceful Config'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.11' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'bc4972303b843bd55cf57c16da6d4c0d61a746f04df3f3ee390e3795ae394e7e46439618e31c2aa1c35726c48e9a6d6fb50af6522e34bcf1c2c7b7fb324015c3'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/M1953qlQ/versions/vL6cvvOo/ResourcefulConfig-neoforge-1.21.11-3.11.3.jar'
+
+[update.modrinth]
+mod-id = 'M1953qlQ'
+version = 'vL6cvvOo'

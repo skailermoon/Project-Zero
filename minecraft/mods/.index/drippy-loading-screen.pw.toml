@@ -1,0 +1,16 @@
+filename = 'drippyloadingscreen_neoforge_3.1.3_MC_1.21.11.jar'
+name = 'Drippy Loading Screen'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.11' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'c2b006cdb3cf92f46aa68ee55aaeb532c3a4be2d407deb6492e0dce58dccc98994441883eef786a78be835199f1d6f98943225078ca330d9591d528e246dc5d7'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/v3CYg2V9/versions/sIK1W0yF/drippyloadingscreen_neoforge_3.1.3_MC_1.21.11.jar'
+
+[update.modrinth]
+mod-id = 'v3CYg2V9'
+version = 'sIK1W0yF'

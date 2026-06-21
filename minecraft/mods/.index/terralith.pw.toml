@@ -1,0 +1,16 @@
+filename = 'Terralith_1.21.11_v2.6.1_Neoforge.jar'
+name = 'Terralith'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.11' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'd70b8e247b98260d65c2a9eee127af8d06a7ba9b653e0178d537b53c1516dfc4a82aaf40187c758c6c50d01619518e3d188ea6de3714ed0c1fc80cecd87eb6cf'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/8oi3bsk5/versions/qcBNpb1U/Terralith_1.21.11_v2.6.1_Neoforge.jar'
+
+[update.modrinth]
+mod-id = '8oi3bsk5'
+version = 'qcBNpb1U'

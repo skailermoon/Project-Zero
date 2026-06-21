@@ -1,0 +1,16 @@
+filename = 'more-fossils-3.0.2.jar'
+name = 'More Fossils'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.10', '1.21.11', '1.21.9' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '4044028f7625d66a42f13ee91009c7860f1ea2878dbb4f9f6d599654cf791e80e9f175db271e26ff973f04a99d20188000b3dfd29949e3d7fca74b2581df2887'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/6wSvZKQk/versions/t6T9YrVm/more-fossils-3.0.2.jar'
+
+[update.modrinth]
+mod-id = '6wSvZKQk'
+version = 't6T9YrVm'

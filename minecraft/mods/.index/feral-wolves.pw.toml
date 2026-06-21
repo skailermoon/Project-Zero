@@ -1,0 +1,16 @@
+filename = 'feral_wolves-1.0.0.jar'
+name = 'Feral Wolves'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.11' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'f11a2dfa46b4648fabbaa4386dd6dee335e984f4e2a937ea7bef5b450190f7bfea5315e96f97aeb025b4d155b2522055989ce217ccd2986d6997e4f68bb4e1ab'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/YA54iQax/versions/KBe4eFr6/feral_wolves-1.0.0.jar'
+
+[update.modrinth]
+mod-id = 'YA54iQax'
+version = 'KBe4eFr6'

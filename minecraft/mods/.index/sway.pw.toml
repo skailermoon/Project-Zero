@@ -1,0 +1,16 @@
+filename = 'sway-1.1.1-neoforge+1.21.11.jar'
+name = 'SWAY'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.10', '1.21.11' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'b1a84b411223188ebd99f6697e1e3883b75f6d2de4544c17c5584a9ce6c54e8ecdc2dc20f7f887aed877971bcc220cdb6e35e46d1c193887bf8c0e1d0ee9ef46'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Gj6Yce3v/versions/pIwd9hh4/sway-1.1.1-neoforge%2B1.21.11.jar'
+
+[update.modrinth]
+mod-id = 'Gj6Yce3v'
+version = 'pIwd9hh4'

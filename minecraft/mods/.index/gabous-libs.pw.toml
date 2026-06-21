@@ -1,0 +1,16 @@
+filename = 'gaboulibs-neoforge-1.4.jar'
+name = "Gabou's Libs - New logo LIZZARRDD"
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.11' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'ca70fb6b1aa29bd78df542799590817871205830e59a26bdabcb2899cd8ce59c4cd535d29e11c2f8188ceb9787d126b9c7ec4ec6e4d83ebeb398935239016354'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/N8aGZtvj/versions/MqIDqc9i/gaboulibs-neoforge-1.4.jar'
+
+[update.modrinth]
+mod-id = 'N8aGZtvj'
+version = 'MqIDqc9i'

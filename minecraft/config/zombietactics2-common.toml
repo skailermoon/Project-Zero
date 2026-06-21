@@ -1,0 +1,118 @@
+[Mining]
+	zombiesMineBlocks = true
+	# Default: 0.2
+	# Range: 0.0 ~ 1.7976931348623157E308
+	miningSpeed = 0.2
+	# Default: 0.2
+	# Range: 0.0 ~ 1.7976931348623157E308
+	minDistForMining = 0.2
+	# Default: 8.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	maxDistForMining = 8.0
+	# Default: 4.5
+	# Range: 0.0 ~ 1.7976931348623157E308
+	maxHardness = 0.4
+	dropBrokenBlocks = false
+	# Default: 10.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	hardnessMultiplier = 10.0
+	strictMine = true
+	# Default: 12
+	# Range: 0 ~ 256
+	findChestRange = 0
+
+[Climbing]
+	zombiesClimb = true
+	# Default: 0.3
+	# Range: 0.0 ~ 1.7976931348623157E308
+	zombieClimbingSpeed = 0.3
+	#Zombie climbing limit ticks
+	# Default: 120
+	# Range: > 1
+	climbLimitTicks = 120
+	hyperClimbing = false
+	randomlyClimb = true
+
+[Spawn]
+	# Default: 0.0
+	# Range: 0.0 ~ 1.0
+	persistenceChance = 0.0
+	# Default: 384
+	# Range: > 0
+	maxThreshold = 384
+	spawnUnderSun = false
+	noDespawn = false
+	convertZombieVillager = false
+
+[Attributes]
+	# Default: 20
+	# Range: 0 ~ 1024
+	defaultHealth = 20
+
+[Targeting]
+	zombiesTargetAnimals = true
+	# Default: 5
+	# Range: 1 ~ 65536
+	blockCost = 5
+	# Default: 40
+	# Range: 1 ~ 128
+	followRange = 40
+	#Allowed Values: SIMPLE, LINEAR, INTENSIVE, OVERLOAD
+	findTargetType = "SIMPLE"
+	# Default: 0.82828568570857
+	# Range: 0.25 ~ 127.0
+	"" = 0.82828568570857
+	targetVisibilityCheck = false
+	avoidance = true
+	simulate = true
+	disseminate = false
+	# Default: 0
+	# Range: 0 ~ 2000
+	delayToAttack = 0
+
+[Optimize]
+	# Default: 1
+	# Range: 0 ~ 95
+	pathAccuracy = 1
+	noIdle = false
+
+[Moving]
+	# Default: 1.0
+	# Range: 0.01 ~ 128.0
+	aggressiveSpeed = 1.0
+	jumpBlock = true
+	canFly = false
+	# Default: 0.1
+	# Range: 0.0 ~ 32.0
+	flySpeed = 0.1
+	canSwim = true
+	# Default: 1.0
+	# Range: 0.0 ~ 128.0
+	swimSpeed = 1.0
+
+[General]
+	# Default: 0.0
+	# Range: 0.0 ~ 1024.0
+	healAmount = 0.0
+	# Default: 20
+	# Range: 1 ~ 1000
+	attackCooldown = 20
+	sunSensitive = true
+	noMercy = false
+	canFloat = true
+	# Default: 0.3
+	# Range: 0.0 ~ 128.0
+	jumpAcceleration = 0.3
+	# Default: 8
+	# Range: 0 ~ 128
+	pickupRange = 8
+	# Default: 0
+	# Range: -100 ~ 100
+	pickUpPriority = 0
+
+[Debug]
+	showNodes = false
+	showDeltaMovement = false
+	neverDie = false
+	glowZombie = false
+	waterBreathing = false

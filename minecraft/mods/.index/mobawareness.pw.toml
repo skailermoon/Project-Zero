@@ -1,0 +1,16 @@
+filename = 'mobawareness-1.21.11-neoforge-1.0.0.jar'
+name = 'MobAwareness'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.11' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'e838e46753fc01760ecf9dfea09633efd4278d6f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7996879
+project-id = 1523060
