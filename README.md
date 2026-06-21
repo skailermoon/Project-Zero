@@ -1,4 +1,4 @@
-﻿# Project-Zero
+﻿# Project Zero
 ProjectZero is a hardcore zombie apocalypse modpack built around scavenging, survival, exploration, and fighting against overwhelming undead hordes. Civilization has collapsed, resources are scarce, and every day is a battle to stay alive.
 
 ## Multiplayer
