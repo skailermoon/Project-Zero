@@ -13,7 +13,7 @@ Prism Launcher Recommended<br>
 
 ## Installation
 Download or clone the latest release.<br>
-Copy the files into a new Prism Launcher instance.<br>
+Import the zip folder as a new Prism Launcher instance.<br>
 Launch the game.<br>
 Survive.<br>
 
