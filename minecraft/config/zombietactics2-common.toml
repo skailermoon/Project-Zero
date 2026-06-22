@@ -16,7 +16,7 @@
 	# Default: 10.0
 	# Range: 0.0 ~ 1.7976931348623157E308
 	hardnessMultiplier = 10.0
-	strictMine = true
+	strictMine = false
 	# Default: 12
 	# Range: 0 ~ 256
 	findChestRange = 0
@@ -30,7 +30,7 @@
 	# Default: 120
 	# Range: > 1
 	climbLimitTicks = 120
-	hyperClimbing = false
+	hyperClimbing = true
 	randomlyClimb = true
 
 [Spawn]
@@ -41,7 +41,7 @@
 	# Range: > 0
 	maxThreshold = 384
 	spawnUnderSun = false
-	noDespawn = false
+	noDespawn = true
 	convertZombieVillager = false
 
 [Attributes]
@@ -65,7 +65,7 @@
 	targetVisibilityCheck = false
 	avoidance = true
 	simulate = true
-	disseminate = false
+	disseminate = true
 	# Default: 0
 	# Range: 0 ~ 2000
 	delayToAttack = 0
@@ -74,7 +74,7 @@
 	# Default: 1
 	# Range: 0 ~ 95
 	pathAccuracy = 1
-	noIdle = false
+	noIdle = true
 
 [Moving]
 	# Default: 1.0
