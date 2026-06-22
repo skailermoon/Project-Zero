@@ -1,4 +1,4 @@
-#Sun Jun 21 17:57:21 PDT 2026
+#Mon Jun 22 12:00:03 PDT 2026
 DIRTY_LENS=true
 DOF=true
 LIGHT_NI=0.75
