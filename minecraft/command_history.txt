@@ -1,5 +1,3 @@
-/time set midnight
-/gamemode spectator
 /time set night
 /time set 12000
 /time set 12500
@@ -48,3 +46,5 @@
 /time set 12800
 /time set day
 /time set night
+/summon minecraft:skeleton
+/summon minecraft:zombie

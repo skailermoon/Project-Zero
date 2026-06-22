@@ -1,0 +1,16 @@
+filename = 'clientsort-neoforge-2.2.2+1.21.11.jar'
+name = 'Client Sort'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.11' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '0679e58b124c0b4d412f820b841d8b77e1732a885ed293a7fc3511c1c521bfa307007b8428b5ac65759ee39ac3f93b7a03c5ea8d3db33e297fbeee4e1eef46c3'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/K0AkAin6/versions/sYsIIWMY/clientsort-neoforge-2.2.2%2B1.21.11.jar'
+
+[update.modrinth]
+mod-id = 'K0AkAin6'
+version = 'sYsIIWMY'

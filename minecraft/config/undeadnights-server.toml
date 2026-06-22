@@ -8,7 +8,7 @@ undeadNightsEnabled = true
 #the number of days set with daysBetweenHordeNights below.
 # Default: 0
 # Range: > 0
-gracePeriod = 1
+gracePeriod = 2
 #If true, each night a message will be sent to the player with how many nights are left before the next Horde Night | default: false
 sendHordeNightsCountdownMessage = true
 #If true, the horde has spawned message and the horde sound are enabled | default: true
