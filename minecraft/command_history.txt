@@ -1,6 +1,3 @@
-/time set 12000
-/time set 12500
-/time set 12800
 /gamemode creative
 /time set 12800
 /time set 12900
@@ -48,3 +45,6 @@
 /summon minecraft:skeleton
 /summon minecraft:zombie
 /gamemode creative
+/weather clear
+/summon minecraft:zombie
+/summon minecraft:skeleton

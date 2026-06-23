@@ -2,7 +2,8 @@
 	"credit": "Made by Satellence with Blockbench",
 	"parent": "block/block",
 	"textures": {
-        "2": "block/materials/copper/bulb/waxed_25"
+		"2": "block/materials/copper/bulb/waxed_25",
+		"particle": "block/materials/copper/particle_25"
 	},
 	"elements": [
 		{

@@ -1,8 +1,0 @@
-{
-	"parent": "block/templates/glass_block",
-	"textures": {
-		"n": "block/glass/normal/normal",
-		"i": "block/glass/normal/inner",		
-		"particle": "block/glass/normal/normal"
-	}
-}

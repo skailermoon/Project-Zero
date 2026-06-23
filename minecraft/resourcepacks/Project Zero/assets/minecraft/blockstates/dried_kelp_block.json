@@ -1,8 +1,0 @@
-{
-  "variants": {
-    "": [
-      { "model": "minecraft:block/misc/dried_kelp_1" },
-      { "model": "minecraft:block/misc/dried_kelp_2" }
-    ]
-  }
-}
