@@ -1,0 +1,21 @@
+#OutpostZero client configuration
+#Overall flashlight brightness.
+# Default: 11
+# Range: 8 ~ 15
+flashlightBrightness = 11
+#Flashlight dynamic lighting profile.
+# Default: BALANCED
+#Allowed Values: OFF, PERFORMANCE, BALANCED, SMOOTH
+flashlightDynamicLighting = "BALANCED"
+#Whether to render the gas mask first-person visor overlay.
+# Default: true
+gasMaskOverlayEnabled = true
+#Whether to play the local gas mask breathing sound while wearing the gas mask.
+# Default: true
+gasMaskBreathingSoundEnabled = true
+#How often the local gas mask breathing sound plays, in ticks.
+#20 ticks = 1 second.
+# Default: 200
+# Default: 200
+# Range: 1 ~ 72000
+gasMaskBreathingSoundIntervalTicks = 200

@@ -1,0 +1,26 @@
+{
+  "airlock_door": {
+    "sounds": ["outpostzero:airlock_door"]
+  },
+  "electrical_flicker": {
+    "sounds": ["outpostzero:electrical_flicker"]
+  },
+  "cricket_bat": {
+    "sounds": ["outpostzero:cricket_bat"]
+  },
+  "barbed_wire": {
+    "sounds": ["outpostzero:barbed_wire"]
+  },
+  "control_panel": {
+    "sounds": ["outpostzero:control_panel"]
+  },
+  "injection": {
+    "sounds": ["outpostzero:injection"]
+  },
+  "flashlight": {
+    "sounds": ["outpostzero:flashlight"]
+  },
+  "gas_mask_breathing": {
+    "sounds": ["outpostzero:gas_mask"]
+  }
+}

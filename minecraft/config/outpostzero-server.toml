@@ -1,0 +1,87 @@
+#OutpostZero server configuration
+#Whether the starter bunker should be placed near world spawn.
+# Default: true
+starterBunkerEnabled = true
+#Maximum deterministic attempts used to find a suitable starter bunker site.
+# Default: 64
+# Range: 1 ~ 2048
+starterBunkerMaxAttempts = 64
+#If OutpostZero is installed into an existing world, whether the starter bunker may still be auto-generated.
+#When false, legacy worlds skip starter bunker placement unless explicitly enabled.
+# Default: false
+starterBunkerAllowRetrofitGeneration = false
+#Distance in blocks from world spawn used as the starter-bunker search origin.
+#This is not the final bunker position; normal OPZ suitability/retry logic searches around this point.
+#Set to 0 to search around world spawn.
+# Default: 0
+# Range: 0 ~ 30000000
+starterBunkerSearchDistanceFromSpawn = 0
+#Whether the decorative hub armour stand should be kept when placing bunkers.
+#Applies to both the starter and additional bunkers.
+# Default: true
+HubArmourStandEnabled = true
+#Whether additional bunkers may generate outside the starter bunker.
+# Default: true
+additionalBunkersEnabled = true
+#Region size (R) in chunks. The world is divided into RxR chunk regions for additional bunker gating.
+# Default: 24
+# Range: 4 ~ 256
+additionalBunkersRegionSizeChunks = 24
+#Frequency (N) as 1 per N chunk regions on average. Higher N = rarer bunkers.
+#With defaults, expect ~1 additional bunker on average every ~2000 blocks (terrain permitting).
+# Default: 8
+# Range: 1 ~ 4096
+additionalBunkersFrequency = 8
+#Enables integration with The Hordes so the OPZ vaccine is added as an infection cure when that mod is present.
+#OPZ manages only its own vaccine entries in Hordes data files.
+#Changes may require restarting the world/game twice before The Hordes picks them up.
+# Default: true
+enableHordesCureCompat = true
+#Duration in seconds of temporary infection immunity granted by the OPZ vaccine in The Hordes.
+#Set to 0 to disable immunity registration while still allowing the vaccine to act as a cure item.
+#Changes may require restarting the world/game twice before The Hordes picks them up.
+# Default: 120
+# Range: 0 ~ 86400
+hordesVaccineImmunityDurationSeconds = 120
+#Enables the OPZ fallback infection system when The Hordes is not present.
+# Default: true
+enableFallbackInfection = true
+#Disables the OPZ fallback infection system when The Hordes is present.
+# Default: true
+disableFallbackInfectionWhenHordesPresent = true
+#Stage 1 infection duration in seconds for the OPZ fallback infection system.
+# Default: 600
+# Range: 1 ~ 86400
+infectionStage1DurationSeconds = 600
+#Stage 2 infection duration in seconds for the OPZ fallback infection system.
+# Default: 450
+# Range: 1 ~ 86400
+infectionStage2DurationSeconds = 450
+#Fallback infection stage 3 duration in seconds
+# Default: 300
+# Range: 1 ~ 86400
+infectionStage3DurationSeconds = 300
+#Base percentage chance that a zombie melee hit applies the OPZ fallback infection.
+# Default: 5
+# Range: 0 ~ 100
+infectionZombieHitChancePercent = 5
+#Whether the zombie hit infection chance should rise over Minecraft days.
+#Default: true
+infectionZombieHitChanceEscalationEnabled = true
+#Maximum zombie hit infection chance percentage.
+#Default: 50
+# Default: 50
+# Range: 0 ~ 100
+infectionZombieHitChanceMaxPercent = 50
+#How many Minecraft days it takes the zombie hit infection chance to reach its maximum.
+#Set to 0 to disable the escalation ramp without changing the base chance.
+#Default: 100
+# Default: 100
+# Range: > 0
+infectionZombieHitChanceDaysToMax = 100
+#Item entries that act as cure items for the OPZ fallback infection system.
+# Example: "minecraft:golden_apple"
+infectionCureItems = ["minecraft:golden_apple"]
+#Item entries that cure infection and grant fallback infection immunity in the form item_id=seconds.
+# Example: "outpostzero:vaccine=120"
+infectionImmunityItems = ["outpostzero:vaccine=120"]
