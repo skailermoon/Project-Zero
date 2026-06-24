@@ -5,7 +5,8 @@
 	"textures": {
 		"1": "block/materials/copper/parts_a",
 		"2": "block/decoration/lantern_fire_green",
-		"3": "block/materials/copper/block_waxed_0"
+		"3": "block/materials/copper/block_waxed_0",
+		"particle": "block/materials/copper/particle_0"
 	},
 	"elements": [
 		{

@@ -2,7 +2,8 @@
 	"credit": "Made by Satellence with Blockbench",
 	"parent": "block/block",
 	"textures": {
-		"4": "block/interactive/composter_content"
+		"4": "block/interactive/composter_content",
+		"particle": "block/wooden/oak/particle"
 	},
 	"elements": [
 		{
