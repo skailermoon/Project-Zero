@@ -1,1 +1,5 @@
-Credit to Usaki, RedXuchilbara, and Satellence for the original resource packs.
+Project Zero includes assets and inspiration from the work of:
+- Usaki
+- RedXuchilbara
+- Satellence
+Thank you for creating resources that helped make Project Zero what it is today.

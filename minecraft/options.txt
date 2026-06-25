@@ -258,7 +258,7 @@ key_lambdynlights.key.toggle_fps_dynamic_lighting:key.keyboard.unknown
 key_key.entityculling.toggle:key.keyboard.unknown
 key_key.entityculling.toggleBoxes:key.keyboard.unknown
 soundCategory_master:1.0
-soundCategory_music:0.0
+soundCategory_music:0.5052816901408451
 soundCategory_record:0.5
 soundCategory_weather:1.0
 soundCategory_block:1.0
