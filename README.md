@@ -22,7 +22,6 @@ Project Zero is a zombie apocalypse modpack built around scavenging, survival, e
 
 * 8 GB RAM Minimum
 * 12-16 GB RAM Recommended
-* Prism Launcher Recommended
 
 ## Installation
 
