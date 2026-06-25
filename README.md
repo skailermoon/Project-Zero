@@ -1,4 +1,4 @@
-<img src="minecraft/config/fancymenu/assets/minecraft.png" alt="SK-ProjectZero Banner" width="400">
+<img src="minecraft/config/fancymenu/assets/minecraft.png" alt="SK-ProjectZero Banner">
 Project Zero is a zombie apocalypse modpack built around scavenging, survival, exploration, and fighting against overwhelming undead hordes. Civilization has collapsed, resources are scarce, and every day is a battle to stay alive. Explore a dangerous and unforgiving world, search for supplies, establish safe havens, avoid infection, and uncover the remnants of what came before.
 
 ## Features
