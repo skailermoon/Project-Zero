@@ -50,8 +50,8 @@ Thank you for creating resources that helped make Project Zero what it is today.
 
 Project Zero incorporates the beautiful assets from:
 
-* Insanity Shaders — ElocinDev
-* BSL Shaders — Capt Tatsu
+* Insanity Shaders - ElocinDev
+* BSL Shaders - Capt Tatsu
 
 Thank you for creating and sharing the work that served as the foundation for Project Zero Shaders.
 
