@@ -11,7 +11,7 @@ Project Zero is a zombie apocalypse modpack built around scavenging, survival, e
 * Expanded exploration with custom structures, loot, and world generation.
 * Fight for your life oriented progression and resource mechanics.
 * Dynamic seasons, weather, and environmental challenges.
-* Enhanced atmosphere through darkness, fog, ambient audio, and realistic sound propagation.
+* Enhanced atmosphere through darkness, fog, custom textures, and custom audio.
 * Custom hunger, thirst, and temperature mechanics per biome.
 * Multiplayer is supported without changing mods or configs.
 
