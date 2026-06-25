@@ -31,4 +31,30 @@ Project Zero is a zombie apocalypse modpack built around scavenging, survival, e
 
 ## Credits
 
-This modpack would not be possible without the incredible work of the Minecraft modding community and the developers of the included mods.
+Project Zero would not exist without the amazing work of the Minecraft modding community and the creators whose projects helped shape this pack.
+
+### Resource Packs
+
+Some textures, sounds, and assets used in Project Zero are based on or adapted from the work of:
+
+* Usaki
+* RedXuchilbara
+* Satellence
+
+Thank you for creating and sharing your work with the community.
+
+### Shaders
+
+Project Zero Shaders is a custom shaderpack built using components and modifications from both Insanity Shaders by ElocinDev and BSL Shaders by Capt Tatsu. Credit goes to both creators for their work, which served as the foundation for Project Zero Shaders.
+
+### Mod Developers
+
+Every mod included in Project Zero belongs to and was created by its respective authors. Thank you to all of the developers who continue to create, maintain, and support the mods that make this project possible. Credits for the mods can be viewed in the mods list by importing this pack into Prism Launcher.
+
+## Contact
+
+Questions, feedback, bug reports, or credit related concerns can be directly sent to me through any of the following:
+
+* Email: [moon.skailer@dragex.dev](mailto:moon.skailer@dragex.dev)
+* Discord: @skailermoon
+* Telegram: @skailermoon
