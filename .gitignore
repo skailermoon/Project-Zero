@@ -16,3 +16,5 @@ Desktop.ini
 minecraft/servers.dat
 minecraft/command_history.txt
 minecraft/usercache.json
+/minecraft/cache
+/minecraft/debug
