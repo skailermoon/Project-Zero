@@ -30,7 +30,8 @@ Project Zero is a zombie apocalypse modpack built around scavenging, survival, e
 
 1. Download the latest release.
 2. Drag the downloaded .zip folder to Prism Launcher.
-3. Hit play and try to survive.
+3. Ensure the Java version is set to 21.0.7 before launching.
+4. Hit play and try to survive.
 
 ## Credits
 
