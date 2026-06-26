@@ -1,0 +1,16 @@
+filename = 'homeostatic-1.21.11-neoforge-2.11.0.3.jar'
+name = 'Homeostatic'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.11' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '2ca26300b86057c35300330cb69b1d0321df2e4925b9ebefc6250f229055458e9260d830ef9c96682dc2d7fa15510e4c68425ffe74495dcaf57f618b938e0ada'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/oDobngty/versions/T5K0aKmk/homeostatic-1.21.11-neoforge-2.11.0.3.jar'
+
+[update.modrinth]
+mod-id = 'oDobngty'
+version = 'T5K0aKmk'
