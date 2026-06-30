@@ -30,30 +30,41 @@ if errorlevel 2 (
 
 echo.
 
-call :DeleteMod AmbientSounds "AmbientSounds"
-call :DeleteMod appleskin "AppleSkin"
-call :DeleteMod blur "Blur+"
-call :DeleteMod cave_fog_stabilizer "Cave Fog Stabilizer"
-call :DeleteMod clientsort "ClientSort"
-call :DeleteMod drippy_early_loading_module "Drippy Early Loading Module"
-call :DeleteMod drippyloadingscreen "Drippy Loading Screen"
-call :DeleteMod entityculling "Entity Culling"
-call :DeleteMod fancymenu "FancyMenu"
-call :DeleteMod handycam "Handycam"
-call :DeleteMod iris "Iris Shaders"
-call :DeleteMod lambdynamiclights "LambDynamicLights"
-call :DeleteMod melody "Melody"
-call :DeleteMod MindfulDarkness "Mindful Darkness"
-call :DeleteMod particular "Particular Reforged"
-call :DeleteMod ResourcePackOverrides "Resource Pack Overrides"
-call :DeleteMod ScalableLux "ScalableLux"
-call :DeleteMod sodium "Sodium"
-call :DeleteMod sound-physics-remastered "Sound Physics Remastered"
-call :DeleteMod sway "SWAY"
-call :DeleteMod visualhealth "Visual Health"
-call :DeleteMod xaerominimap "Xaero's Minimap"
-call :DeleteMod xaeroworldmap "Xaero's World Map"
-call :DeleteMod distantthunders "Distant Thunders"
+for %%M in (
+    AmbientSounds
+    appleskin
+    betterdays
+    blur
+    cave_fog_stabilizer
+    clientsort
+    drippy_early_loading_module
+    drippyloadingscreen
+    entityculling
+    fancymenu
+    handycam
+    iris
+    lambdynamiclights
+    mc2_interactivefoliage
+    melody
+    MindfulDarkness
+    particular
+    ResourcePackOverrides
+    ScalableLux
+    sodium
+    sound-physics-remastered
+    sway
+    visualhealth
+    xaerominimap
+    xaeroworldmap
+    distantthunders
+) do (
+    for %%F in ("%MODS%\%%M*.jar") do (
+        if exist "%%~fF" (
+            echo Removing %%~nxF
+            del /f /q "%%~fF"
+        )
+    )
+)
 
 if exist "minecraft\resourcepacks" (
     echo Removing Resource Packs...
@@ -73,12 +84,7 @@ echo.
 echo Press any key to exit...
 pause >nul
 
-start "" /b cmd /c "timeout /t 1 /nobreak >nul & del /f /q ""%~f0"""
+start "" /b cmd /c "timeout /t 3 /nobreak >nul & del /f /q ""%~f0"""
 exit
 
 
-:DeleteMod
-if exist "%MODS%\%~1*.jar" (
-    echo Removing %~2...
-    del /f /q "%MODS%\%~1*.jar" >nul 2>&1
-)
