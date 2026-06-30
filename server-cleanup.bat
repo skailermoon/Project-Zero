@@ -2,18 +2,23 @@
 setlocal EnableExtensions
 
 title Project Zero Server Cleanup
-color 0A
+color 04
+
+set "MODS=minecraft\mods"
 
 echo ========================================
 echo        Project Zero Server Cleanup
 echo ========================================
 echo.
-echo This will:
+echo This will remove client-only files from
+echo your Project Zero installation.
 echo.
-echo   - Remove client-only mods
-echo   - Delete the resourcepacks folder
-echo   - Delete the shaderpacks folder
+echo The following will be removed:
+echo   - Client-only mods
+echo   - Resource Packs
+echo   - Shader Packs
 echo.
+
 choice /C YN /M "Continue?"
 
 if errorlevel 2 (
@@ -24,48 +29,56 @@ if errorlevel 2 (
 )
 
 echo.
-echo Removing client-only mods...
 
-set "MODS=minecraft\mods"
+call :DeleteMod AmbientSounds "AmbientSounds"
+call :DeleteMod appleskin "AppleSkin"
+call :DeleteMod blur "Blur+"
+call :DeleteMod cave_fog_stabilizer "Cave Fog Stabilizer"
+call :DeleteMod clientsort "ClientSort"
+call :DeleteMod drippy_early_loading_module "Drippy Early Loading Module"
+call :DeleteMod drippyloadingscreen "Drippy Loading Screen"
+call :DeleteMod entityculling "Entity Culling"
+call :DeleteMod fancymenu "FancyMenu"
+call :DeleteMod handycam "Handycam"
+call :DeleteMod iris "Iris Shaders"
+call :DeleteMod lambdynamiclights "LambDynamicLights"
+call :DeleteMod melody "Melody"
+call :DeleteMod MindfulDarkness "Mindful Darkness"
+call :DeleteMod particular "Particular Reforged"
+call :DeleteMod ResourcePackOverrides "Resource Pack Overrides"
+call :DeleteMod ScalableLux "ScalableLux"
+call :DeleteMod sodium "Sodium"
+call :DeleteMod sound-physics-remastered "Sound Physics Remastered"
+call :DeleteMod sway "SWAY"
+call :DeleteMod visualhealth "Visual Health"
+call :DeleteMod xaerominimap "Xaero's Minimap"
+call :DeleteMod xaeroworldmap "Xaero's World Map"
+call :DeleteMod distantthunders "Distant Thunders"
 
-for %%F in (
-    "*AmbientSounds*.jar"
-    "*AppleSkin*.jar"
-    "*Blur*.jar"
-    "*Cave*Fog*.jar"
-    "*ClientSort*.jar"
-    "*distantthunders*.jar"
-    "*DrippyLoadingScreen*.jar"
-    "*EntityCulling*.jar"
-    "*FancyMenu*.jar"
-    "*Handycam*.jar"
-    "*Iris*.jar"
-    "*LambDynamicLights*.jar"
-    "*Melody*.jar"
-    "*MindfulDarkness*.jar"
-    "*Particular*.jar"
-    "*ScalableLux*.jar"
-    "*Sodium*.jar"
-    "*Sound*Physics*.jar"
-    "*SWAY*.jar"
-    "*VisualHealth*.jar"
-    "*Xaero*.jar"
-) do (
-    del /F /Q "%MODS%\%%~F" >nul 2>&1
+if exist "minecraft\resourcepacks" (
+    echo Removing Resource Packs...
+    rd /s /q "minecraft\resourcepacks"
 )
 
-echo Removing resourcepacks...
-if exist "minecraft\resourcepacks" rd /S /Q "minecraft\resourcepacks"
-
-echo Removing shaderpacks...
-if exist "minecraft\shaderpacks" rd /S /Q "minecraft\shaderpacks"
+if exist "minecraft\shaderpacks" (
+    echo Removing Shader Packs...
+    rd /s /q "minecraft\shaderpacks"
+)
 
 echo.
 echo ========================================
 echo Cleanup complete!
 echo ========================================
 echo.
-pause
+echo Press any key to exit...
+pause >nul
 
-start "" cmd /c "timeout /t 1 /nobreak >nul & del /f /q ""%~f0"""
+start "" /b cmd /c "timeout /t 1 /nobreak >nul & del /f /q ""%~f0"""
 exit
+
+
+:DeleteMod
+if exist "%MODS%\%~1*.jar" (
+    echo Removing %~2...
+    del /f /q "%MODS%\%~1*.jar" >nul 2>&1
+)
