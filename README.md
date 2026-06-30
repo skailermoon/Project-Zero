@@ -6,32 +6,40 @@ Project Zero is a zombie apocalypse modpack built around scavenging, survival, e
 
 ## Features
 
-* Dangerous hordes and enhanced enemy AI behavior.
-* Enemies that can hear and see you from far away.
-* Expanded exploration with custom structures, loot, and world generation.
-* Fight for your life oriented progression and resource mechanics.
-* Dynamic seasons, weather, and environmental challenges.
-* Enhanced atmosphere through darkness, fog, custom textures, and custom audio.
-* Custom hunger, thirst, and temperature mechanics per biome.
-* Multiplayer is supported without changing mods or configs.
+- Dangerous hordes and enhanced enemy AI behavior.
+- Enemies that can hear and see you from far away.
+- Expanded exploration with custom structures, loot, and world generation.
+- Fight for your life oriented progression and resource mechanics.
+- Dynamic seasons, weather, and environmental challenges.
+- Enhanced atmosphere through darkness, fog, custom textures, and custom audio.
+- Custom hunger, thirst, and temperature mechanics per biome.
+- Multiplayer is supported without changing mods or configs.
 
 ## Survival Tips
 
-* Avoid unnecessary fights early game.
-* Find a secure shelter before night.
-* Never underestimate a horde.
+- Avoid unnecessary fights early game.
+- Find a secure shelter before night.
+- Never underestimate a horde.
 
 ## Recommended PC Specs
 
-* 8 GB RAM Minimum
-* 12-16 GB RAM Recommended
+- 8 GB RAM Minimum
+- 12-16 GB RAM Recommended
 
-## Installation
+## Client Installation
 
 1. Download the latest release.
-2. Drag the downloaded .zip folder to Prism Launcher.
-3. Ensure the Java version is set to 21.0.7 before launching.
-4. Hit play and try to survive.
+2. Drag the downloaded `.zip` into the Prism Launcher instances menu.
+3. Verify the instance is using **Java 21.0.7**, **NeoForge 21.11.42**, and **Minecraft 1.21.11**.
+4. Launch the instance and try to survive.
+
+## Server Installation
+
+1. Download the latest release.
+2. Delete the `resourcepacks` and `shaderpacks` folders, as they are not required on the server.
+3. Verify the server is using **Java 21.0.7**, **NeoForge 21.11.42**, and **Minecraft 1.21.11**.
+4. Upload the remaining files to the proper locations in your server directory.
+5. Start the server.
 
 ## Credits
 
@@ -41,9 +49,9 @@ Project Zero would not exist without the amazing work of the Minecraft modding c
 
 Project Zero includes assets and inspiration from the work of:
 
-* Usaki
-* RedXuchilbara
-* Satellence
+- Usaki
+- RedXuchilbara
+- Satellence
 
 Thank you for creating resources that helped make Project Zero what it is today.
 
@@ -51,8 +59,8 @@ Thank you for creating resources that helped make Project Zero what it is today.
 
 Project Zero incorporates the beautiful assets from:
 
-* Insanity Shaders - ElocinDev
-* BSL Shaders - Capt Tatsu
+- Insanity Shaders - ElocinDev
+- BSL Shaders - Capt Tatsu
 
 Thank you for creating and sharing the work that served as the foundation for Project Zero Shaders.
 
@@ -60,11 +68,10 @@ Thank you for creating and sharing the work that served as the foundation for Pr
 
 Project Zero includes the work of many talented mod developers from across the Minecraft community. Thank you to everyone who creates, maintains, and supports the mods that make this project possible. Credits for included mods can be viewed in the mod list after importing the pack into Prism Launcher.
 
-
 ## Contact
 
 Questions, feedback, bug reports, or credit related concerns can be directly sent to me through any of the following:
 
-* Email: [moon.skailer@dragex.dev](mailto:moon.skailer@dragex.dev)
-* Discord: @skailermoon
-* Telegram: @skailermoon
+- Email: [moon.skailer@dragex.dev](mailto:moon.skailer@dragex.dev)
+- Discord: @skailermoon
+- Telegram: @skailermoon
