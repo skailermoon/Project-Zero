@@ -35,10 +35,10 @@ Project Zero is a zombie apocalypse modpack built around scavenging, survival, e
 
 ## Server Installation
 
-1. Download the latest release.
-2. Delete the `resourcepacks` and `shaderpacks` folders, as they are not required on the server.
+1. Download and extract the latest release.
+2. Run `server-cleanup.bat` to automatically remove unnecessary client side files.
 3. Verify the server is using **Java 21.0.7**, **NeoForge 21.11.42**, and **Minecraft 1.21.11**.
-4. Upload the remaining files to the proper locations in your server directory.
+4. Upload the remaining files to your server, preserving the folder structure.
 5. Start the server.
 
 ## Credits
