@@ -28,7 +28,7 @@ Project Zero is a zombie apocalypse modpack built around scavenging, survival, e
 
 ## Client Installation
 
-1. Download the latest release.
+1. [Download the latest release](https://github.com/skailermoon/Project-Zero/releases)
 2. Drag the downloaded `.zip` into the Prism Launcher instances menu.
 3. Verify the instance is using **Java 21.0.7**, **NeoForge 21.11.42**, and **Minecraft 1.21.11**.
 4. Launch the instance and try to survive.
