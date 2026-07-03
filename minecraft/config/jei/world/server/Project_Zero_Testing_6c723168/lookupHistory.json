@@ -1,0 +1,13 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"outpostzero:empty_syringe"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"outpostzero:vaccine"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"outpostzero:crude_resistance_tincture"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"outpostzero:binding_agent"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"outpostzero:steel_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:golden_apple"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:clock"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"homeostatic:purified_water_bottle"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:potion"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:leather"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

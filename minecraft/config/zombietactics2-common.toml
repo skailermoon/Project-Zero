@@ -30,7 +30,7 @@
 	# Default: 120
 	# Range: > 1
 	climbLimitTicks = 120
-	hyperClimbing = true
+	hyperClimbing = false
 	randomlyClimb = true
 
 [Spawn]
@@ -88,7 +88,7 @@
 	canSwim = true
 	# Default: 1.0
 	# Range: 0.0 ~ 128.0
-	swimSpeed = 1.0
+	swimSpeed = 0.5
 
 [General]
 	# Default: 0.0

@@ -28,18 +28,22 @@ Project Zero is a zombie apocalypse modpack built around scavenging, survival, e
 
 ## Client Installation
 
-1. [Download the latest release](https://github.com/skailermoon/Project-Zero/releases)
-2. Drag the downloaded `.zip` into the Prism Launcher instances menu.
-3. Verify the instance is using **Java 21.0.7**, **NeoForge 21.11.42**, and **Minecraft 1.21.11**.
-4. Launch the instance and try to survive.
+1. Download the [latest release](https://github.com/skailermoon/Project-Zero/releases) (`Source code (zip)`). **Do not extract the archive.**
+2. Drag the downloaded `.zip` folder directly into the **Prism Launcher** instances window and click **OK**.
+3. Select the imported instance, click **Edit** ➡️ **Settings** ➡️ **Download Java**, then install **Java 21 - 21.0.7**.
+4. Launch the game. Good luck surviving!
+
+> **Note:** Prism Launcher will reset the Java installation every time you import an instance in this way. If the instance ever fails to launch or Java is no longer selected, repeat Step 3. This is a limitation of Prism Launcher when importing instances and cannot be avoided when distributing the modpack in this format.
 
 ## Server Installation
 
-1. Download and extract the latest release.
-2. Run `server-cleanup.bat` to automatically remove unnecessary client side files.
+1. Download the [latest release](https://github.com/skailermoon/Project-Zero/releases) (`Source code (zip)`). **You have to extract the archive for server installation.**
+2. Run `server-cleanup.bat` to automatically remove unnecessary client-side files.
 3. Verify the server is using **Java 21.0.7**, **NeoForge 21.11.42**, and **Minecraft 1.21.11**.
-4. Upload the remaining files to the proper locations in your server directory.
-5. Start the server.
+4. Upload the remaining files to the server in the standard server root locations.
+5. Start the server and connect.
+
+> **Note:** Some server hosts may display a warning such as **"Invalid Java Version"**. This can safely be ignored, as the Java version listed in these instructions is the correct version for Project Zero. If you have any questions or run into issues, feel free to contact me.
 
 ## Credits
 

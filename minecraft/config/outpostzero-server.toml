@@ -81,7 +81,7 @@ infectionZombieHitChanceMaxPercent = 50
 infectionZombieHitChanceDaysToMax = 100
 #Item entries that act as cure items for the OPZ fallback infection system.
 # Example: "minecraft:golden_apple"
-infectionCureItems = ["minecraft:golden_apple"]
+infectionCureItems = ["minecraft:golden_apple", "minecraft:enchanted_golden_apple"]
 #Item entries that cure infection and grant fallback infection immunity in the form item_id=seconds.
 # Example: "outpostzero:vaccine=120"
-infectionImmunityItems = ["outpostzero:vaccine=120"]
+infectionImmunityItems = ["outpostzero:vaccine=120", "minecraft:golden_apple=120", "minecraft:enchanted_golden_apple=600"]
