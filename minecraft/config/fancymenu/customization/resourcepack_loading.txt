@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = drippy_loading_overlay
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1782343285514
+  last_edited_time = 1783205165165
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:91f54412-ae9c-4f8b-9d77-edbbe1506705-1782343200340] = [groups:][instances:]
+  [loading_requirement_container_meta:c732b202-d7cb-487a-8795-cae55cb4ab7a-1783205149951] = [groups:][instances:]
 }
 
 menu_background {
@@ -29,7 +29,7 @@ menu_background {
   instance_identifier = 28205e6b-9bb0-4737-b348-291419ea4cdf-1782053430976
   background_type = image
   show_background = true
-  image_path = [source:local]/config/fancymenu/assets/menu/2026-06-24_15.37.45.png
+  image_path = [source:local]/config/fancymenu/assets/menu/loading.png
   slide = false
   repeat_texture = false
   parallax = false
@@ -442,9 +442,9 @@ vanilla_button {
   auto_sizing_base_screen_height = 0
   sticky_anchor = false
   anchor_point = vanilla
-  x = 108
-  y = 215
-  width = 264
+  x = 144
+  y = 288
+  width = 352
   height = 10
   stay_on_screen = true
   element_loading_requirement_container_identifier = 34085a04-0f39-49ea-9a36-73eced305a29-1782053430978
@@ -520,10 +520,10 @@ vanilla_button {
   auto_sizing_base_screen_height = 1060
   sticky_anchor = false
   anchor_point = vanilla
-  x = 108
-  y = 99
-  width = 264
-  height = 66
+  x = 144
+  y = 132
+  width = 352
+  height = 88
   stay_on_screen = true
   element_loading_requirement_container_identifier = 96fad734-61aa-4299-84a3-c014d8cfe594-1782053430978
   [loading_requirement_container_meta:96fad734-61aa-4299-84a3-c014d8cfe594-1782053430978] = [groups:][instances:]

@@ -1,5 +1,0 @@
-[
-  {"version":3},
-  {"ingredient":{"id":"minecraft:porkchop"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"minecraft:furnace"},"type":"item_stack","bookmarkType":"INGREDIENT"}
-]
