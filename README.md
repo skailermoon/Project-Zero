@@ -34,7 +34,7 @@ Project Zero is a zombie apocalypse modpack built around scavenging, survival, e
 4. Click **Auto Detect** and select **Java 21 - 21.0.7**.
 5. Launch the game. Good luck surviving!
 
-> **Note:** Prism Launcher will reset the Java installation every time you import an instance in this way. If the instance ever fails to launch or Java is no longer selected, repeat Step 3. This is a limitation of Prism Launcher when importing instances and cannot be avoided when distributing the modpack in this format.
+> **Note:** Prism Launcher will reset the Java installation every time you import an instance in this way. If the instance ever fails to launch or Java is no longer selected, repeat Step 3 and 4. This is a limitation of Prism Launcher when importing instances and cannot be avoided when distributing the modpack in this format.
 
 ## Server Installation
 
