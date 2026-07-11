@@ -85,6 +85,7 @@ The following bugs are currently known in the latest released version. Any issue
 
 * **(CF)** Interacting with hanging skeleton entities from **The Graveyard** at night causes the game to crash.
 * **(CF)** The **Outpost Zero** advancement screen backgrounds are missing their texture references and therefore display the missing texture.
+* Entering certain chunks containing modded entities or block states may rarely cause a fatal crash due to a chunk palette serialization error. The exact cause is currently unknown and under investigation. Temporary workaround: Disable the C2ME mod, load the affected world, save and exit, then enable the C2ME mod again.
 
 </details>
 
