@@ -84,7 +84,6 @@ The following bugs are currently known in the latest released version. Any issue
 <br>
 
 * **(CF)** Interacting with hanging skeleton entities from **The Graveyard** at night causes the game to crash.
-* **(CF)** The **Mob Catcher Upgrade** from **Sophisticated Backpacks** fails to load its metadata correctly and therefore cannot be crafted.
 * **(CF)** The **Outpost Zero** advancement screen backgrounds are missing their texture references and therefore display the missing texture.
 
 </details>
