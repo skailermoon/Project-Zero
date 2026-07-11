@@ -74,6 +74,23 @@ Thank you for creating and sharing the work that served as the foundation for Pr
 
 Project Zero includes the work of many talented mod developers from across the Minecraft community. Thank you to everyone who creates, maintains, and supports the mods that make this project possible. Credits for included mods can be viewed in the mod list after importing the pack into Prism Launcher.
 
+## Known Bugs
+
+The following bugs are currently known in the latest released version. Any issue marked **(CF)** (Cannot Fix) is confirmed to originate from a mod error and cannot be resolved within Project Zero itself. **(CF)** bugs will be resolved once the respective mod developer(s) release an update for their mod(s). Any other issues listed here are currently being fixed and will be removed from this list in an upcoming Project Zero update.
+
+<details>
+<summary><strong>View Bug List</strong></summary>
+
+<br>
+
+* **(CF)** Interacting with hanging skeleton entities from **The Graveyard** at night causes the game to crash.
+* **(CF)** The **Mob Catcher Upgrade** from **Sophisticated Backpacks** fails to load its metadata correctly and therefore cannot be crafted.
+* **(CF)** The **Outpost Zero** advancement screen backgrounds are missing their texture references and therefore display the missing texture.
+
+</details>
+
+Please report any issues that are not listed here using one of the contact methods below.
+
 ## Contact
 
 Questions, feedback, bug reports, or credit related concerns can be directly sent to me through any of the following:
