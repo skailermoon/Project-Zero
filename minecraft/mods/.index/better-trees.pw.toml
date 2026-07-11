@@ -1,4 +1,4 @@
-filename = 'better-trees-1.9.2.jar'
+filename = 'better-trees-1.9.3.jar'
 name = 'Better Trees'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
@@ -6,26 +6,54 @@ x-prismlauncher-mc-versions = [
     '1.20.5',
     '1.20.6',
     '1.21',
+    '1.21 Pre-Release 1',
+    '1.21 Pre-Release 2',
+    '1.21 Pre-Release 3',
+    '1.21 Pre-Release 4',
+    '1.21 rc1',
     '1.21.1',
     '1.21.10',
     '1.21.11',
     '1.21.2',
+    '1.21.2 Pre-Release 1',
+    '1.21.2 Pre-Release 2',
     '1.21.3',
     '1.21.4',
     '1.21.5',
     '1.21.6',
     '1.21.7',
     '1.21.8',
-    '1.21.9'
+    '1.21.9',
+    '24w18a',
+    '24w19a',
+    '24w19b',
+    '24w20a',
+    '24w21a',
+    '24w21b',
+    '24w33a',
+    '24w34a',
+    '24w35a',
+    '24w36a',
+    '24w37a',
+    '24w38a',
+    '24w39a',
+    '24w40a',
+    '24w44a',
+    '24w45a',
+    '24w46a',
+    '26.1',
+    '26.1.1',
+    '26.1.2',
+    '26.2'
 ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '468222d2865fe4e823b6a1e05097781cff95e3e1aae8e7d0c960ded05a7617ba72cdbb2591dca3744b4d11474975c58cce0d9fc5cb48adc0c6a5ea88076b6675'
+hash = '2c7467e51c03e45aa000b3803844be8e1923fcdf9eb92b1930c2a7d04781a700c87794b60bfccc048ba884cd7bb9a4738538d688d4c8a993caf4544c0dd0ce05'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/cfXIpi12/versions/Q27NJIcZ/better-trees-1.9.2.jar'
+url = 'https://cdn.modrinth.com/data/cfXIpi12/versions/cxeCnM3T/better-trees-1.9.3.jar'
 
 [update.modrinth]
 mod-id = 'cfXIpi12'
-version = 'Q27NJIcZ'
+version = 'cxeCnM3T'

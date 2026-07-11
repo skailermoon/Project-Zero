@@ -121,7 +121,7 @@ key_key.chat:key.keyboard.t
 key_key.playerlist:key.keyboard.tab
 key_key.pickItem:key.mouse.middle
 key_key.command:key.keyboard.slash
-key_key.socialInteractions:key.keyboard.p
+key_key.socialInteractions:key.keyboard.unknown
 key_key.toggleGui:key.keyboard.f1
 key_key.toggleSpectatorShaderEffects:key.keyboard.f4
 key_key.screenshot:key.keyboard.f2
@@ -149,7 +149,7 @@ key_key.hotbar.9:key.keyboard.9
 key_key.debug.reloadChunk:key.keyboard.a
 key_key.debug.showHitboxes:key.keyboard.b
 key_key.debug.clearChat:key.keyboard.d
-key_key.debug.crash:key.keyboard.c
+key_key.debug.crash:key.keyboard.unknown
 key_key.debug.showChunkBorders:key.keyboard.g
 key_key.debug.showAdvancedTooltips:key.keyboard.h
 key_key.debug.copyRecreateCommand:key.keyboard.i
@@ -157,7 +157,7 @@ key_key.debug.spectate:key.keyboard.n
 key_key.debug.switchGameMode:key.keyboard.f4
 key_key.debug.debugOptions:key.keyboard.f6
 key_key.debug.focusPause:key.keyboard.p
-key_key.debug.dumpDynamicTextures:key.keyboard.s
+key_key.debug.dumpDynamicTextures:key.keyboard.unknown
 key_key.debug.reloadResourcePacks:key.keyboard.t
 key_key.debug.profiling:key.keyboard.l
 key_key.debug.copyLocation:key.keyboard.c
@@ -177,17 +177,17 @@ key_gui.xaero_quick_confirm:key.keyboard.right.shift
 key_gui.xaero_toggle_dimension:key.keyboard.unknown
 key_key.modernfix.config:key.keyboard.unknown
 key_iris.keybind.reload:key.keyboard.r
-key_iris.keybind.toggleShaders:key.keyboard.k
-key_iris.keybind.shaderPackSelection:key.keyboard.o
+key_iris.keybind.toggleShaders:key.keyboard.unknown
+key_iris.keybind.shaderPackSelection:key.keyboard.unknown
 key_iris.keybind.wireframe:key.keyboard.unknown
 key_key.sophisticatedbackpacks.open_backpack:key.keyboard.b
 key_key.sophisticatedbackpacks.inventory_interaction:key.keyboard.c
 key_key.sophisticatedbackpacks.tool_swap:key.keyboard.unknown
+key_key.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.z:ALT
 key_key.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.x:ALT
 key_key.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
 key_key.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
 key_key.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
-key_key.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.z:ALT
 key_key.mc2_interactivefoliage.open_config:key.keyboard.unknown
 key_key.mc2_interactivefoliage.toggle:key.keyboard.unknown
 key_key.clientsort.edit:key.keyboard.unknown
@@ -197,9 +197,11 @@ key_key.clientsort.op.stackFill:key.keyboard.unknown
 key_key.clientsort.op.matchTransfer:key.keyboard.unknown
 key_key.clientsort.op.transfer:key.keyboard.unknown
 key_key.corpse.death_history:key.keyboard.u
+key_key.toms_storage.open_terminal:key.keyboard.n
 key_key.combat_reborn.quiver:key.keyboard.g
 key_key.outpostzero.toggle_belt_flashlight:key.keyboard.y
 key_key.outpostzero.toggle_offhand_flashlight:key.keyboard.t
+key_key.handycam.toggle_effects:key.keyboard.f10
 key_key.jei.toggleOverlay:key.keyboard.o:CONTROL_OR_COMMAND
 key_key.jei.focusSearch:key.keyboard.f:CONTROL_OR_COMMAND
 key_key.jei.previousPage:key.keyboard.unknown
@@ -212,6 +214,7 @@ key_key.jei.showUses:key.keyboard.u
 key_key.jei.showUses2:key.mouse.right
 key_key.jei.transferRecipeBookmark:key.mouse.left:SHIFT
 key_key.jei.maxTransferRecipeBookmark:key.mouse.left:CONTROL_OR_COMMAND
+key_key.jei.quickMove:key.mouse.left:SHIFT
 key_key.jei.clearSearchBar:key.mouse.right
 key_key.jei.previousSearch:key.keyboard.up
 key_key.jei.nextSearch:key.keyboard.down
@@ -258,7 +261,7 @@ key_lambdynlights.key.toggle_fps_dynamic_lighting:key.keyboard.unknown
 key_key.entityculling.toggle:key.keyboard.unknown
 key_key.entityculling.toggleBoxes:key.keyboard.unknown
 soundCategory_master:1.0
-soundCategory_music:0.5
+soundCategory_music:0.5093896713615024
 soundCategory_record:0.5
 soundCategory_weather:0.5023474178403756
 soundCategory_block:0.5046948356807514
