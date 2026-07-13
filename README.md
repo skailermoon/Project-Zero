@@ -76,21 +76,29 @@ Project Zero includes the work of many talented mod developers from across the M
 
 ## Known Bugs
 
-The following bugs are currently known in the latest released version. Any issue marked **(CF)** (Cannot Fix) is confirmed to originate from a mod error and cannot be resolved within Project Zero itself. **(CF)** bugs will be resolved once the respective mod developer(s) release an update for their mod(s). Any other issues listed here are currently being fixed and will be removed from this list in an upcoming Project Zero update.
+The following bugs are currently known in the latest released version. Bugs listed under **View Unfixable Bugs** originate from external mods and cannot be resolved within Project Zero. These will be resolved once the respective mod developers release an update. Bugs listed under **View Fixable Bugs** are issues within Project Zero that are currently being addressed and will be removed from this list in an upcoming update.
 
 <details>
-<summary><strong>View Bug List</strong></summary>
+<summary><strong>View Unfixable Bugs</strong></summary>
 
 <br>
 
-* **(CF)** Interacting with hanging skeleton entities from **The Graveyard** at night causes the game to crash.
-* **(CF)** The **Outpost Zero** advancement screen backgrounds are missing their texture references and therefore display the missing texture.
-* Entering certain chunks containing modded entities or block states may rarely cause a fatal crash due to a chunk palette serialization error. The exact cause is currently unknown and under investigation. Temporary workaround: Disable the C2ME mod and Async mod.
-* Cherry, Mangrove, and Crimson wood textures are the wrong colors.
-* Ender Pearl and Eye of Ender textures need to be changed.
-* Glowstone looks strange.
-* Pink Stained Glass and Pink Stained Glass Pane textures need to be changed.
-* Froglight's need a custom texture.
+* Interacting with hanging skeleton entities from **The Graveyard** at night causes the game to crash.
+* The **Outpost Zero** advancement screen backgrounds are missing their texture references and therefore display the missing texture.
+
+</details>
+
+<details>
+<summary><strong>View Fixable Bugs</strong></summary>
+
+<br>
+
+* Entering certain chunks containing modded entities or block states may rarely cause a fatal crash due to a chunk palette serialization error. The exact cause is currently unknown and under investigation. **Temporary workaround:** Disable **C2ME** and **Async**.
+* Cherry, Mangrove, and Crimson wood textures use incorrect colors.
+* Ender Pearl and Eye of Ender textures need to be updated.
+* Glowstone texture needs improvement.
+* Pink Stained Glass and Pink Stained Glass Pane textures need to be updated.
+* Froglights need custom textures.
 
 </details>
 
