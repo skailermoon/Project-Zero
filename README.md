@@ -85,7 +85,12 @@ The following bugs are currently known in the latest released version. Any issue
 
 * **(CF)** Interacting with hanging skeleton entities from **The Graveyard** at night causes the game to crash.
 * **(CF)** The **Outpost Zero** advancement screen backgrounds are missing their texture references and therefore display the missing texture.
-* Entering certain chunks containing modded entities or block states may rarely cause a fatal crash due to a chunk palette serialization error. The exact cause is currently unknown and under investigation. Temporary workaround: Disable the C2ME mod.
+* Entering certain chunks containing modded entities or block states may rarely cause a fatal crash due to a chunk palette serialization error. The exact cause is currently unknown and under investigation. Temporary workaround: Disable the C2ME mod and Async mod.
+* Cherry, Mangrove, and Crimson wood textures are the wrong colors.
+* Ender Pearl and Eye of Ender textures need to be changed.
+* Glowstone looks strange.
+* Pink Stained Glass and Pink Stained Glass Pane textures need to be changed.
+* Froglight's need a custom texture.
 
 </details>
 
