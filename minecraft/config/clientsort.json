@@ -1,6 +1,6 @@
 {
   "options": {
-    "interactionInterval": 10,
+    "interactionInterval": 1,
     "useServerAcceleration": true,
     "useClientFallback": false,
     "optimizeCreativeSorting": true,

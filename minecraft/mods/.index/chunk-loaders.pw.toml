@@ -1,0 +1,16 @@
+filename = 'chunkloaders-1.2.9-neoforge-mc1.21.11.jar'
+name = 'Chunk Loaders'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.11' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'df497632127c2085b5e75fe1f3d1e1230f20f6d0'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7393476
+project-id = 402924
