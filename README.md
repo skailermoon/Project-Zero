@@ -35,7 +35,10 @@ Project Zero is a zombie apocalypse modpack built around scavenging, survival, e
 4. Click **Auto Detect** and select **Java 21 - 21.0.7**.
 5. Launch the game. Good luck surviving!
 
-> **Note:** Prism Launcher will reset the Java installation every time you import an instance in this way. If the instance ever fails to launch or Java is no longer selected, repeat Step 3 and 4. This is a limitation of Prism Launcher when importing instances and cannot be avoided when distributing the modpack in this format.
+> **Note:** Prism Launcher will reset the Java installation every time you import an instance in this way. If the instance ever fails to launch or Java is no longer selected, repeat Steps 3 and 4. This is a limitation of Prism Launcher when importing instances and cannot be avoided when distributing the modpack in this format.
+
+> **Updates:** If you are updating from a previous version of Project Zero, copy your **saves**, **screenshots**, **xaero**, and **XaeroWaypoints_...** folders from your previous instance into the newly imported instance to preserve your worlds, screenshots, minimap data, and waypoints.
+
 
 ## Server Installation
 
@@ -46,6 +49,8 @@ Project Zero is a zombie apocalypse modpack built around scavenging, survival, e
 5. Start the server and connect.
 
 > **Note:** Some server hosts may display a warning such as **"Invalid Java Version"**. This can safely be ignored, as the Java version listed in these instructions is the correct version for Project Zero. If you have any questions or run into issues, feel free to contact me.
+
+> **Updates:** If you are updating an existing Project Zero server, delete the folders from your server that exist in the new downloaded version after running the `server-cleanup.bat` file, such as **mods** and **configs**. Then, copy the folders and files from the new version into your server. This ensures that files from removed or updated mods are not left behind on the server while preserving important server data such as your world, player data, and other generated files.
 
 ## Credits
 
