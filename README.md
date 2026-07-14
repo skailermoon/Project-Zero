@@ -93,12 +93,7 @@ The following bugs are currently known in the latest released version. Bugs list
 
 <br>
 
-* Entering certain chunks containing modded entities or block states may rarely cause a fatal crash due to a chunk palette serialization error. The exact cause is currently unknown and under investigation. **Temporary workaround:** Disable **C2ME** and **Async**.
-* Cherry, Mangrove, and Crimson wood textures use incorrect colors.
-* Ender Pearl and Eye of Ender textures need to be updated.
-* Glowstone texture needs improvement.
-* Pink Stained Glass and Pink Stained Glass Pane textures need to be updated.
-* Froglights need custom textures.
+* No current known issues
 
 </details>
 
