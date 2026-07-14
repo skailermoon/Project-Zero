@@ -1,0 +1,38 @@
+#Allow copying enchanted books to create duplicates
+allowBookCopying = true
+#Allow copying enchantments directly from one gear item to another
+allowGearCopying = true
+#Allow extracting enchantments from gear and storing them in books
+allowMoveEnchantmentsToBook = true
+#Set a fixed XP cost (2 levels) for repairing items with materials, ignoring prior work penalty
+allowFixedRepairCost = true
+#Prevent combining items from increasing enchantment levels beyond original values
+preventIncreaseEnchantmentLevel = false
+#Allow repairing items that normally cannot be repaired with materials (e.g. trident, bow, shears)
+allowNonstandardRepairs = true
+#Allow decreasing enchantment level on books using flint
+allowDecreaseEnchantmentLevel = true
+#Allow anvil operations with XP costs of 40 levels or more instead of blocking them as too expensive
+allowHighAnvilCost = true
+#XP cost (in levels) for repairing items with materials when fixed repair cost is enabled
+# Default: 2
+# Range: 1 ~ 100
+fixedRepairCost = 2
+#XP cost (in levels) for moving enchantments from gear to book
+# Default: 1
+# Range: 1 ~ 100
+moveEnchantmentsToBookCost = 1
+#Keep the original gear item after moving enchantments to a book instead of consuming it during extraction
+keepItemWhenMovingEnchantmentsToBook = false
+#XP cost (in levels) for decreasing enchantment level on books using flint
+# Default: 1
+# Range: 1 ~ 100
+decreaseEnchantmentLevelCost = 1
+#XP cost (in levels) for copying enchantments directly from one gear item to another
+# Default: 25
+# Range: 1 ~ 100
+gearCopyingCost = 25
+#Maximum number of copies that can be made from an enchanted book per copy operation when book copying is enabled
+# Default: 4
+# Range: 1 ~ 100
+maxBookCopies = 4
