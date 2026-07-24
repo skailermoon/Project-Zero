@@ -98,7 +98,8 @@ The following bugs are currently known in the latest released version. Bugs list
 
 <br>
 
-* No current known issues
+* Cyan Terracotta texture
+* Purple Terracotta texture
 
 </details>
 
