@@ -1,4 +1,4 @@
-filename = 'enchantonce-1.21.11-2.6.1.jar'
+filename = 'enchantonce-1.21.11-2.7.0.jar'
 name = 'EnchantOnce'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.21.11' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '9d24d201283f5c1b5510fc0f1d59380ccb340b5e184274e9b3c3af14f8e767889fa39162e3d1b0655d947243b9fd83b9e264430169c5c5a6c034a47dcb584e8b'
+hash = 'da25700ec8e81cfc6fc67fd8a40cb9466eb28cce17e7ba01bcb02269bdba97fac31f8d382bce009350a2585f901873650ece7b862a9128d72994eaa0906b3355'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/CLOsbQfZ/versions/xtGloUbx/enchantonce-1.21.11-2.6.1.jar'
+url = 'https://cdn.modrinth.com/data/CLOsbQfZ/versions/d34h1OyM/enchantonce-1.21.11-2.7.0.jar'
 
 [update.modrinth]
 mod-id = 'CLOsbQfZ'
-version = 'xtGloUbx'
+version = 'd34h1OyM'

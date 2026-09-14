@@ -1,4 +1,4 @@
-filename = 'KotlinLangForge-2.12.1-k2.4.0-3.1+neoforge.jar'
+filename = 'KotlinLangForge-2.14.0-k2.4.20-3.1+neoforge.jar'
 name = 'KotlinLangForge'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.21.10', '1.21.11', '1.21.9', '26.1', '26.1.1'
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '5f4847a079c10731e6034dcbbfec1eff7fb9a26e'
+hash = 'cbcb93aa855ef6db6a387c336eff0aa091a0ae48'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8195010
+file-id = 8880360
 project-id = 1244682

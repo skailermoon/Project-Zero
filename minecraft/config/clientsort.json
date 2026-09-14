@@ -21,7 +21,12 @@
     "ctrlSortOrderStr": "alphabet",
     "altSortOrderStr": "rawId",
     "useStartOverrides": true,
-    "startOverrideItems": [],
+    "startOverrideItems": [
+      "sophisticatedbackpacks:diamond_backpack",
+      "sophisticatedbackpacks:netherite_backpack",
+      "toms_storage:adv_wireless_terminal",
+      "toms_storage:wireless_terminal"
+    ],
     "useEndOverrides": true,
     "endOverrideItems": [],
     "playSoundSort": false,

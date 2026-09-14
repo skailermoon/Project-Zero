@@ -1,4 +1,4 @@
-filename = 'sway-1.1.2-neoforge+1.21.11.jar'
+filename = 'sway-2.4.4-neoforge+1.21.11.jar'
 name = 'SWAY'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.21.10', '1.21.11' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '992024ff8d4cd53587073cc494ac4c3c2f4ac715c21a6c01db2b67ff3ebc0dfaea4eb1a76863d39a766753834b3da185647f068bf35529eaabc83a5da3eaef2f'
+hash = 'bc8d2aa41efd7029f7dfa9ffed1c49136a4928ba1f2ef62cf65d454f7e446714531a30db97909c6e07114bb34636e92b45c3e479da3b4f4fa20c2599c90354fe'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/Gj6Yce3v/versions/k5QL5VLi/sway-1.1.2-neoforge%2B1.21.11.jar'
+url = 'https://cdn.modrinth.com/data/Gj6Yce3v/versions/SAIKTwcv/sway-2.4.4-neoforge%2B1.21.11.jar'
 
 [update.modrinth]
 mod-id = 'Gj6Yce3v'
-version = 'k5QL5VLi'
+version = 'SAIKTwcv'

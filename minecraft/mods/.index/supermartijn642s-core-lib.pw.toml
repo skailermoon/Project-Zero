@@ -1,4 +1,4 @@
-filename = 'supermartijn642corelib-1.1.21-neoforge-mc1.21.11.jar'
+filename = 'supermartijn642corelib-1.1.24a-neoforge-mc1.21.11.jar'
 name = "SuperMartijn642's Core Lib"
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.21.11' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = 'd78d717e05af2ed06f8d3af6f781de285c2771a2'
+hash = '2ed7690341bd05f2207293bde6845756972661cc'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7783521
+file-id = 8735389
 project-id = 454372
