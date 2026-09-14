@@ -100,6 +100,10 @@ The following bugs are currently known in the latest released version. Bugs list
 
 * Cyan Terracotta texture
 * Purple Terracotta texture
+* Lime Glazed Terracotta texture
+* Light Blue Glazed Terracotta texture
+* Blue Glazed Terracotta texture
+* Magenta Glazed Terracotta texture
 * Slime Block texture
 * Soul Campfire texture
 * Calibrated Sculk Sensor texture
