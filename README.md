@@ -104,6 +104,8 @@ The following bugs are currently known in the latest released version. Bugs list
 
 Please report any issues that are not listed here using one of the contact methods below.
 
+> **Note:** Please avoid updating mods manually unless you're experienced with building modpacks. I handle all updates, whether for patches or general maintenance, to guarantee everything remains compatible. Updating mods yourself risks breaking the game or preventing it from starting.
+
 ## Contact
 
 Questions, feedback, bug reports, or credit related concerns can be directly sent to me through any of the following:
