@@ -98,7 +98,7 @@ The following bugs are currently known in the latest released version. Bugs list
 
 <br>
 
-* No current reported bugs.
+* Soul Soil texture.
 
 </details>
 
