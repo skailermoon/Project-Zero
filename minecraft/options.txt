@@ -183,11 +183,11 @@ key_iris.keybind.wireframe:key.keyboard.unknown
 key_key.sophisticatedbackpacks.open_backpack:key.keyboard.b
 key_key.sophisticatedbackpacks.inventory_interaction:key.keyboard.c
 key_key.sophisticatedbackpacks.tool_swap:key.keyboard.unknown
-key_key.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.z:ALT
-key_key.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.x:ALT
-key_key.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
-key_key.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
 key_key.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
+key_key.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
+key_key.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
+key_key.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.x:ALT
+key_key.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.z:ALT
 key_key.mc2_interactivefoliage.open_config:key.keyboard.unknown
 key_key.mc2_interactivefoliage.toggle:key.keyboard.unknown
 key_key.clientsort.edit:key.keyboard.unknown
@@ -238,6 +238,8 @@ key_key.jei.previousCategory:key.keyboard.page.up:SHIFT
 key_key.jei.nextCategory:key.keyboard.page.down:SHIFT
 key_key.jei.closeRecipeGui:key.keyboard.escape
 key_key.jei.copy.recipe.id:key.keyboard.unknown
+key_key.punchy.open_main_menu:key.keyboard.f8
+key_key.punchy.inspect:key.keyboard.i
 key_gui.xaero_zoom_in:key.keyboard.unknown
 key_gui.xaero_zoom_out:key.keyboard.unknown
 key_gui.xaero_new_waypoint:key.keyboard.v
@@ -264,6 +266,12 @@ key_gui.xaero_minimap_server_profiles:key.keyboard.unknown
 key_lambdynlights.key.toggle_fps_dynamic_lighting:key.keyboard.unknown
 key_key.entityculling.toggle:key.keyboard.unknown
 key_key.entityculling.toggleBoxes:key.keyboard.unknown
+key_key.punchy_moves.camera_toggle_v:key.keyboard.v
+key_key.punchy_moves.camera_editor:key.keyboard.f7
+key_key.punchy_moves.free_camera:key.keyboard.b
+key_key.punchy_moves.emote_menu:key.keyboard.c
+key_key.punchy.triggerable.punchy_sword_inspect_old:key.keyboard.j
+key_key.punchy.triggerable.punchy_sword_inspect_rework:key.keyboard.g
 soundCategory_master:1.0
 soundCategory_music:0.5093896713615024
 soundCategory_record:0.5

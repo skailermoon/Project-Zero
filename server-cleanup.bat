@@ -57,6 +57,9 @@ for %%M in (
     xaerominimap
     xaeroworldmap
     distantthunders
+    punchy
+    weatherglass
+    fwa
 ) do (
     for %%F in ("%MODS%\%%M*.jar") do (
         if exist "%%~fF" (
